@@ -82,39 +82,83 @@
                 forma en que una web puede entregar valor es la limpieza en la información y la interactividad. Magic web lo hace
                 empleando los mejores estándares: HTML5, Schema, CSS3, Javascript y velocidad.</p>
           </article>
+          <table>
+            <caption>Costo de un sitio web</caption>
+            <tr>
+              <th scope="col">Tipo de sitio</th>
+              <th scope="col" >ilustraciones</th>
+              <th scope="col" >CSS animations</th>
+              <th scope="col" >Javascript</th>
+              <th scope="col" > Total</th>
+            </tr>
+            <tr>
+              <td>S1-plantilla</td>
+            <tr>
+              <td>S1-original</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td id="sitioTipoOriginalConIlustraciones" ></td>
+            </tr>
+             <tr>
+              <td>S2</td>
+             </tr>
+              <tr>
+                <td>S3</td>
+              </tr>
+            </tr>
+          </table>
+          
       </section>
 <div>
 
   <div id="cost" >
-
+    
   </div>
+  <br>
   
+<h2 id="saludo" ></h2>
+<br>
   <span id="colorBanner"></span>
-<script src="/js/1.js" ></script>
-    <script>
+  <br>
+  <script src="/js/1.js" ></script>
+
+   
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <script>
       
-        var hoy = new Date(); //crea un objeto y lo asigna a una var
-        var ahora = hoy.getHours();
+        var today = new Date(); //crea un objeto y lo asigna a una var
+        var ahora = today.getHours();
         var saludo;
-        
-        if (ahora > 0) {
-          saludo = 'Buenos días';
-        } else if (ahora >12) {
+
+                
+        if (ahora <= 12) {
+          saludo = 'Buenas días';
+        } else if (ahora >= 13) {
           saludo = 'Buenas tardes';
-        } else if (ahora > 18) {
+        } else if (ahora >= 18) {
           saludo = 'You wanna sleep';
         } else {
           saludo = 'Welcome';
         }
-        document.write(saludo);
+        document.write( '<h1>' + saludo + '</h1>');
       </script>
 
 
 </div>
-<script>
-var x = "I love Mo";
-document.write(x);
-</script>
+
 
     </main>
   </div>

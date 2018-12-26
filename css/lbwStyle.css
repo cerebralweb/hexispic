@@ -7,7 +7,7 @@ h2{font-size: 2.2rem; font-weight: 400;
   margin-top: 3%; color: blueviolet;}
 
 p {font-family: "Raleway", sans-serif; font-size: 1.1rem; 
-  line-height: 1.5; margin: 3%; color: rgb(104, 35, 170);}
+  line-height: 1.5; text-align: justify; margin: 3%; color: rgb(104, 35, 170);}
 
 /*DESKTOP style
 ============================================================================================*/
@@ -25,6 +25,8 @@ nav {display: flex; list-style: none; justify-content: center;font-size: 1.5rem;
 a.clase1 {text-decoration: none; color:  blueviolet;}
 a.clase1:link {text-decoration: none; color:  blueviolet;}
 a.clase1:hover {text-decoration: none; color:  chartreuse;}
+
+table {margin-left: 25%;}
 
 /*Mobil style
 ============================================================================================*/
