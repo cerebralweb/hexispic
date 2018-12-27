@@ -2,33 +2,44 @@ var illustration;
 var cantidad;
 var total;
 
-illustration = 6;
-cantidad = 10;
-total = illustration * cantidad;
+illustration = 8;
+componentecss = 5;
+jsRedes = 3;
+jquery = 50;
+nodojavascript = 70;
+cantidad = 0;
+subtotalPlantilla = 60;
+subTotalDesign = 100;
+hybridapp = 50;
 
-var x = document.getElementById("cost");
-x.textContent = "Ten illustrations worth " + '$' + total;
+total = (illustration * cantidad) + subtotalPlantilla;
 
-var colores = ['blanco', 'azure', '#FFF'];
+var s1Plantilla = document.getElementById("costS1");
+s1Plantilla.textContent = total;
 
-colores[3] = 'negro';
+var s1Original = document.getElementById("costS1original");
+s1Original.textContent = subTotalDesign + ((jsRedes * 5) + (componentecss * 1) + (illustration * 1));
 
-var m = document.getElementById('colorBanner');
-m.textContent = "soy una palabra de color " + colores[3];
+var s2 = document.getElementById("costoS2");
+s2.textContent = subTotalDesign + ((illustration * 5) + (componentecss * 3) + (jquery))
 
-var name = "Bernardo";
-var sayHello = "hola";
-var hola = name + sayHello;
-
-var saludar = document.getElementById('saludo');
-saludar.textContent = hola;
+var s3 = document.getElementById("costoS3");
+s3.textContent = subTotalDesign + ((illustration * 10) + (componentecss = 5) + (nodojavascript));
 
 
+var s4 = document.getElementById("costoS4");
+s4.textContent = subTotalDesign + ((illustration * 10) + (componentecss = 5) + (hybridapp));
 
-var costoIlustracion = 5;
-var cantidadIlustracionesSitioTipoOriginal = 8;
-var total = costoIlustracion * cantidadIlustracionesSitioTipoOriginal;
 
-var costoParcialIlustraciones = document.getElementById ('sitioTipoOriginalConIlustraciones');
-costoParcialIlustraciones.textContent = total;
+
+
+
+//Otros ejercicios
+
+
+
+
+
+
+
 

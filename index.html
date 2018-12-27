@@ -45,7 +45,7 @@
 
   <!--<<<<<<<<<<< link a style.css  >>>>>>>>>>>-->
 
-  <link rel="stylesheet" href="/css/lbwStyle.css"">
+  <link rel="stylesheet" href="/css/magicStyle.css"">
  
   <link href="https://fonts.googleapis.com/css?family=Baloo|Raleway" rel="stylesheet"> 
 
@@ -80,38 +80,61 @@
                 expresen esa identidad, páginas únicas, echas artesanalmente y a la medida de cada persona </p>
               <p>Detrás de cada producto hay, frecuentemente, la necesidad de entregar valor a los usuarios de un sitio web. La mejor
                 forma en que una web puede entregar valor es la limpieza en la información y la interactividad. Magic web lo hace
-                empleando los mejores estándares: HTML5, Schema, CSS3, Javascript y velocidad.</p>
+                empleando los mejores estándares: HTML5, Schema, CSS3, Javascript, webs responsivas ( <em>smarphones</em> ) y velocidad.</p>
           </article>
-          <table>
-            <caption>Costo de un sitio web</caption>
+          <table class="tablaCostos" >
+            <h2>Costo de un sitio web</h2>
             <tr>
               <th scope="col">Tipo de sitio</th>
               <th scope="col" >ilustraciones</th>
               <th scope="col" >CSS animations</th>
               <th scope="col" >Javascript</th>
-              <th scope="col" > Total</th>
+              <th scope="col" > Total (USD)</th>
+              <th scope="col">Ejemplo (portafolio)</th>
             </tr>
             <tr>
-              <td>S1-plantilla</td>
+              <td scope="row">S1-plantilla</td>
+              <td>0</td>
+              <td>0</td>
+              <td>4 (redes sociales)</td>
+              <td id="costS1" ></td>
+              <td><a href="https://magicweb.netlify.com/">magicweb.pw</a></td>
             <tr>
-              <td>S1-original</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td id="sitioTipoOriginalConIlustraciones" ></td>
+              <td scope="row" >S1-original</td>
+              <td>1</td>
+              <td>1</td>
+              <td>5 (redes + animación)</td>
+              <td id="costS1original" ></td>
             </tr>
              <tr>
               <td>S2</td>
+              <td>5</td>
+              <td>3 (+ Flex o Grid)</td>
+              <td>jquery</td>
+              <td id="costoS2"></td>
+              <td><a href="https://www.hexis.cc/">hexis.cc</a></td>
              </tr>
               <tr>
                 <td>S3</td>
+                <td>10</td>
+                <td>5</td>
+                <td>Node.js</td>
+                <td id="costoS3"></td>
               </tr>
-            </tr>
+              <tr>
+                <td>S4</td>
+                <td>10</td>
+                <td>5</td>
+                <td>app híbrida (ios Android)</td>
+                <td id="costoS4"></td>
+              </tr>        
           </table>
+          
+          <p style="text-align: center; color: rgb(165, 163, 163); font-size: .9rem;" >Hosting: sitios estáticos (magicweb usa Github y netlify sin costo), sitios dinámicos (cliente). Dominios: cliente </p>
           <br><br>
       </section>
 <div>
-<h2>PÁGINA EN CONSTRUCCIÓN <BR>(lo que usted está observando es la construcción de una base de datos node.js</BR></h2>
+<h2>PÁGINA EN CONSTRUCCIÓN <BR></h2>
   <div id="cost" >
     
   </div>
@@ -119,9 +142,7 @@
   
 <h2 id="saludo" ></h2>
 <br>
-  <span id="colorBanner"></span>
-  <br>
-  <script src="/js/1.js" ></script>
+   <script src="/js/1.js" ></script>
 
    
    

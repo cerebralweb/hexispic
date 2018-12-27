@@ -26,9 +26,19 @@ a.clase1 {text-decoration: none; color:  blueviolet;}
 a.clase1:link {text-decoration: none; color:  blueviolet;}
 a.clase1:hover {text-decoration: none; color:  chartreuse;}
 
-table {margin-left: 25%;}
 
-/*Mobil style
+/*TABLE
+============================================================================================*/
+
+table {width: 100%}
+tr:nth-child(even){background-color:rgb(235, 234, 236);}
+tr:hover{background-color: rgb(223, 217, 228);}
+th {padding: 1px; border: solid rgb(109, 32, 182); font-weight: 100; font-family: "Raleway", sans-serif; font-size: 1.1rem; }
+td {padding: 5px; text-align: center; font-weight: 100; font-family: "Raleway", sans-serif; font-size: 1.1rem; } 
+th[scope="col"] {height: 3rem; color: white; background-color: rgb(109, 32, 182);}
+th[scope="row"] {color: black; background-color: chartreuse; }
+
+/*MOVIL style
 ============================================================================================*/
 @media (max-width: 1024px) {
   h1 {font-size: 2rem; color:  chartreuse; font-weight: 100; text-align: center; }
