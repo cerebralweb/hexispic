@@ -1,0 +1,13 @@
+.blog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  clear: both;
+}
+
+.blog div {
+  border: 1pt solid grey;
+  border-radius: 10px;
+  padding: 2px;
+  background-color: lightskyblue;
+}
