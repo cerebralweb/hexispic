@@ -101,14 +101,12 @@
     position: absolute;
     z-index: -2;
     box-sizing: border-box;
-    padding-left: 40px;
-    padding-right: 40px;
-    left: 0px;
-    top: 0px;
+   
+   
     width: 100%; height: auto;
   }
  
-.responsiveImage {width: 100%; height: auto;}
+.responsiveImage {width: 100%;  height: auto; box-sizing: border-box; padding: 2%;background: white;}
  
      
   
@@ -119,7 +117,7 @@
   font-family: 'Montserrat', sans-serif;
   text-align: right;
   position: absolute;
-  width: 480px;
+  width: 40%;
   top: 370px;
   right: 40px;
   z-index: 1;
@@ -153,45 +151,6 @@
    top: 800px;
   }    
 
-  
- 
-
-  .subtitulo-code {
-    text-align: justify;
-    font-family: 'Roboto Mono', monospace;
-    background-color: rgb(51, 50, 50);    
-    margin-top: 90px; 
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-bottom: 10px;
-    color: rgb(9, 247, 29);
-    line-height: 1.5;
-    font-weight: 0;
-    font-style: normal;
-    font-size: 2rem;
-  }
-  
-
-  .subtitulo-h4 {  
-    color: black;
-    line-height: 1.1;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 2.5rem;
-    box-sizing: border-box;
-  }
-  
-  .titulo-h3 {  
-    text-align: center;
-    padding: 10px;
-    font-weight: 100;
-    font-size: 1.7rem;  
-    color: white;
-    background-color: black;
-    height: 60px;
-  }
-  
- 
   
  
 
@@ -247,106 +206,77 @@
   
   @media (max-width:  1024px){
 
-    .contenedorBody {
+  nav { 
+    position: absolute;
+    background-color: brown;    
+    z-index: -1;
+      margin-left: 15px;
+      list-style: none;
+      float: left;
+      margin-top: 20px;
       box-sizing: border-box;
-      width: 100%;
-      margin: 0%;
-      padding: 0%;         
-    }
-      
-      
-      .paragrafo {
-        font-size: .50 rem;
-        font-weight: 300;
-        } 
-  
-.contenedorHeader {    
-        width: 100%;
-        position: fixed;
-        top: 0px;        
-        box-shadow:0 0 16px rgba(14, 0, 0, 0.3);
-        }
+      width: 100px;      
+    } 
 
-   .logo {  
-     width: 100%;
-     min-height: 60px;
-     box-sizing: border-box;
-        margin: 0%;
-        padding-top: 6px;
-        text-align: center;
-        color: rgb(12, 12, 11);
-        font-size: 2.3rem;
-        font-weight: 300;
-        background-color: black;
-        }             
-nav {
-  float: left;
-  width: 100%;
-  text-align: center;
-  margin-top: 0px;
-  display: flex;
-  flex-direction: column;
-  font-size: 1rem;
-  line-height: 2;
-  box-sizing: border-box;          
-  background-color:whitesmoke;} 
+    .titulosMain {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;      
+      margin-top: -40%;
+      width: 80%;
       
-
-    .contenedorMain {
-      width: 100%;
-      margin-top: 200px;      
-      box-sizing: border-box;           
-    }   
+      color:  black;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 30px;
+      }
     
+      .contenedorArticuloMain {color: rgb(58, 56, 56);
+        text-align: center;
+        width: 80%;
+        top: 340px;
+        right: 55px;
+        z-index: 3;
+        background-color: rgb(218, 213, 213);
+        line-height: 1.5;
+        padding: 5px; height: auto;}
+        
+    
+    .contenedorMain {
+        display: block;
+        position: relative;
+        width: 80%;    
+        margin-left: 200px;
+        margin-right: 200px;
+        clear: both;
+        box-sizing: border-box;
+        font-weight: 300;
+        font-style: normal;
+       top: 800px;
+      }    
+    
+      
+     
+    
+      .contenedorQueEsHexis {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        margin: 70px auto;
+      }
+      .cajaVideoHexis {width: 100%; height: auto; margin-top: 40%;}
+      .bannerFlotante {
+        float: right;
+        width: 45%;
+        box-sizing: border-box;
+        margin: 70px auto;
+      }
+    
+
     
   
     .cajaVideoHexis {width: 100%; margin-top: 5%;}
 
-    .subtitulo-code {
-      text-align: justify;
-      font-family: 'Roboto Mono', monospace;
-      background-color: rgb(51, 50, 50);    
-      margin-top: 90px; 
-      padding-left: 3%;
-      padding-right: 3%;
-      margin-bottom: -180px;
-      color: rgb(9, 247, 29);
-      line-height: 1.4;
-      font-weight: 100;
-      font-style: normal;
-      font-size: 1rem;
-    }    
-    .titulo-h3 {display: none;}
-    
-    .titulosMain {
-      margin-bottom: 1.5rem;
-      color:  rgb(14, 151, 241);
-      line-height: 1.1;
-      font-size: 2rem;
-      font-weight: 200;
-    }
-    
-    .contenedorSectionHexis {
-    display: flex;
-    width: 100%;
-    flex-direction: column; 
-    margin-top: -35px;
-    
-    }
-  
-    .contenedorQueEsHexis {
-      float: left;  
-      width: 90%;    
-      box-sizing: border-box;
-     margin: 5% auto;
-      
-    }
-    .bannerFlotante {
-      float: left;      
-      width: 90%;
-      box-sizing: border-box;
-      margin: 5% auto;
-          }
+   
 
           /*Convocatoria
   ====================================================================================================*/
