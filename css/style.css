@@ -120,7 +120,7 @@
   text-align: right;
   position: absolute;
   width: 480px;
-  top: 350px;
+  top: 370px;
   right: 40px;
   z-index: 1;
   color:  white;
@@ -132,7 +132,7 @@
   .contenedorArticuloMain {color: rgb(58, 56, 56);
     position: absolute;
     width: 350px;
-    top: 520px;
+    top: 540px;
     right: 65px;
     z-index: 3;
     background-color: rgb(218, 213, 213);
