@@ -296,7 +296,7 @@ img {pointer-events: none;}
   nav { 
     position: absolute;
     background-color: brown;    
-    z-index: -1;
+    
       margin-left: 15px;
       list-style: none;
       float: left;
