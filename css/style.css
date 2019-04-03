@@ -12,8 +12,8 @@
     }
   
   
-  A.class1 {color: black;}
-  A.class1:link  {text-decoration: none; color:  black;}
+  A.class1 {color: rgb(248, 156, 8);}
+  A.class1:link  {text-decoration: none; color: rgb(248, 156, 8);}
   A.class1:visited {text-decoration: none; color: black;}
   A.class1:hover {text-decoration: none; color: rgb(248, 156, 8);}
   A.class1:active {text-decoration: none; color: rgb(248, 156, 8);}
@@ -31,23 +31,7 @@
   A.class3:hover {text-decoration: underline; color: rgb(14, 151, 241);}
   A.class3:active {text-decoration: none; color: rgb(14, 151, 241);}
 
-  
-  .class4 {
-    width: 100%;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 1s;
-    border-right: 0px solid white;
-    cursor: pointer;}
-  
-  .class4:link  {text-decoration: none; padding: 3%; color: black}
-  .class4:visited { color:black;}
-  .class4:hover {
-    border-right: 3px solid orange;
-    color: black;}  
-  .class4:active {color: black;}
+ 
 
 
   
@@ -140,15 +124,7 @@ img {pointer-events: none;}
         display:inline-block;
     }
 
-    .highlightSmall {
-      background: white;
-      font-size: 2rem;
-  
-         align-items: flex-end;   
-          line-height: .70;
-          border-radius: 2px;
-          display:inline-block;
-      }
+   
 
   .titulosMain1 {
     font-family: 'Montserrat', sans-serif; font-size: 3.2rem;
@@ -175,15 +151,13 @@ img {pointer-events: none;}
 
 
     
-    
-
 .contenedorMainPrecios {
     display: block;
     position: relative;
     width: 80%;    
     margin-left: 200px;
     margin-right: 200px;
-    clear: both;
+    
     box-sizing: border-box;
     font-weight: 300;
     font-style: normal;
@@ -196,8 +170,7 @@ img {pointer-events: none;}
     font-size: 3rem;
     font-weight: 300;
   }
- 
-
+  
   .contenedorQueEsHexis {
     float: left;
     width: 50%;
@@ -212,11 +185,7 @@ img {pointer-events: none;}
     margin: 70px auto;
   }
 
-  
-
-
-
-  
+    
 /*Grid
 ============================================================================*/
 
@@ -243,10 +212,48 @@ img {pointer-events: none;}
 }
     
 
-  /*FOOTER desktop
-  ====================================================================================================*/
- 
-  footer { margin-top: 850px;}
+  /*Footer
+============================================================================*/
+
+.footerPrecios {background-color: lightslategrey;
+  line-height: 1.7;
+	border-top: 3.3px dotted #000;
+	border-bottom: 3.3px dotted #000;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+  margin-bottom: 1px;
+  margin-top: 800px;
+}
+
+.footer1 {background-color: lightslategrey;
+  line-height: 1.7;
+	border-top: 3.3px dotted #000;
+	border-bottom: 3.3px dotted #000;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+	margin-bottom: 1px;
+}
+
+.footer2 {background-color: lightpink;
+  line-height: 1.7;
+	border-top: 3.3px dotted #000;
+	border-bottom: 3.3px dotted #000;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+	margin-bottom: 1px;
+}
+.footer3  {background-color: lightgreen;
+  line-height: 1.7;
+	border-top: 3.3px dotted #000;
+	border-bottom: 3.3px dotted #000;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+	margin-bottom: 1px;
+}
+.footer4  {background-color: lightseagreen;
+  line-height: 1.7;
+	border-top: 3.3px dotted #000;
+	border-bottom: 3.3px dotted #000;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+	margin-bottom: 1px;
+}
+
   
 
   /*BANNER telephone
@@ -276,6 +283,15 @@ img {pointer-events: none;}
   ================================================================================================================================================*/
   
   @media (max-width:  1024px){
+
+
+
+    .column {
+      -ms-flex: 50%; /* IE10 */
+      flex: 100%;
+      max-width: 100%;
+      padding: 20px;
+    }
 
   nav { 
     position: absolute;
@@ -312,40 +328,61 @@ img {pointer-events: none;}
         padding: 5px; height: auto;}
         
     
-    .contenedorMain {
-        display: block;
-        position: relative;
-        width: 80%;    
-        margin-left: 200px;
-        margin-right: 200px;
-        clear: both;
+    .contenedorMainPrecios {
+        display: block;        
+        width: 97%;    
+       margin: 3px;
+        
         box-sizing: border-box;
         font-weight: 300;
         font-style: normal;
-       top: 800px;
+       top: 400px;
       }    
-    
-      
-     
-    
-      .contenedorQueEsHexis {
-        float: left;
-        width: 50%;
-        box-sizing: border-box;
-        margin: 70px auto;
+      .footerPrecios {background-color: lightskyblue;
+        line-height: 1.7;
+        border-top: 3.3px dotted #000;
+        border-bottom: 3.3px dotted #000;
+        box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+        margin-bottom: 1px;
+        margin-top: 400px;
       }
-      .cajaVideoHexis {width: 100%; height: auto; margin-top: 40%;}
-      .bannerFlotante {
-        float: right;
-        width: 45%;
-        box-sizing: border-box;
-        margin: 70px auto;
+    
+  
+      .titulos {
+        line-height: 2;
+        color:  black;
+        font-size: 2rem;
+        font-weight: 300;
       }
+
+      .highlight {
+        background: rgb(25, 26, 25);
+        font-size: 2rem;
+    
+           align-items: flex-end;   
+            line-height: .70;
+            border-radius: 2px;
+            display:inline-block;
+        }
+    
+       
+    
+      .titulosMain1 {
+        font-family: 'Montserrat', sans-serif; font-size: 6rem;
+        font-weight: 500;        
+        position: absolute;
+        
+        top: 250px;
+        
+        z-index: 1;
+        color:  whitesmoke;
+        
+        padding: 20px;
+        }
     
 
     
   
-    .cajaVideoHexis {width: 100%; margin-top: 5%;}
 
    
 
