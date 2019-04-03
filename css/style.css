@@ -138,6 +138,16 @@
         display:inline-block;
     }
 
+    .highlightSmall {
+      background: white;
+      font-size: 2rem;
+  
+         align-items: flex-end;   
+          line-height: .70;
+          border-radius: 2px;
+          display:inline-block;
+      }
+
   .titulosMain1 {
     font-family: 'Montserrat', sans-serif; font-size: 3.2rem;
     font-weight: 700;
@@ -147,7 +157,7 @@
     top: 650px;
     right: 185px;
     z-index: 1;
-    color:  rgb(255, 254, 254);
+    color:  whitesmoke;
     
     padding: 30px;
     }
@@ -158,7 +168,7 @@
     top: 540px;
     right: 65px;
     z-index: 3;
-    background-color: rgb(218, 213, 213);
+    
     line-height: 1.5;
     padding: 5px;}
     
