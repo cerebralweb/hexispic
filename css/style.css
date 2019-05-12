@@ -176,7 +176,9 @@ img {pointer-events: none;}
   }    
 
   .titulos {
-    line-height: 3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
     color:  black;
     font-size: 3rem;
     font-weight: 300;
